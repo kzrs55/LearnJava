@@ -54,6 +54,7 @@ public class StaticInitialization {
         table.f2(1);
         cupBoard.f3(1);
     }
+
     static Table table = new Table();
     static CupBoard cupBoard = new CupBoard();
 }
