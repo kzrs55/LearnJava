@@ -1,16 +1,16 @@
-package design_pattern.abstract_factory;
+package design_pattern.abstract_pattern;
 
 /**
  * Created by zjutK on 16/7/20.
  */
-public class Factory_Pad implements Factory {
+public class Factory_Phone implements Factory{
     @Override
     public Apple CreateAppleProduct() {
-        return new ipad();
+        return new iphone();
     }
 
     @Override
     public Sumsung CreateSumsungProduct() {
-        return new note2();
+        return new S7edge();
     }
 }
